@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Your timezone is...</title>
+<style>
+#tz
+{
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+font-size: 50px;
+font-family: "Arial";
+text-align: center;
+}
+
+#tz small
+{
+font-size: 25px;
+}
+</style>
+</head>
+<body>
+
+<div id="tz">
+<small>your IANA timezone is</small><br /><br />
+<span id="tzname"></span>
+</div>
+
+</body>
+
+<script>
+tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+w = document.getElementById("tzname");
+w.innerHTML = tz;
+</script>
+
+</html>

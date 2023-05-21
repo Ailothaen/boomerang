@@ -1,0 +1,1 @@
+:no_entry_sign: I could not recognize the command you provided me. Please make sure you entered the first word correctly. If you have doubt, type `help`.

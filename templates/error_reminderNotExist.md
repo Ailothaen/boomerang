@@ -1,0 +1,1 @@
+:no_entry_sign: The reminder you supplied does not exist, or you do not have the permissions to see or edit it. Check you entered the correct number.

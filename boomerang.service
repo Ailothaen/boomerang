@@ -1,0 +1,13 @@
+[Unit]
+Description=boomerang - reminder bot
+After=network-online.target
+
+[Service]
+Type=simple
+User=boomerang
+Group=boomerang
+ExecStart=/srv/services/boomerang/run.sh
+WorkingDirectory=/srv/services/boomerang
+
+[Install]
+WantedBy=multi-user.target

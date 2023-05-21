@@ -1,0 +1,1 @@
+:white_check_mark: Your timezone was successfully changed to `{{timezone}}`. Now I know when to send you reminders!

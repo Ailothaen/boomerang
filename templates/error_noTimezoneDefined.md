@@ -1,0 +1,2 @@
+:no_entry_sign: You tried to enter a specific date, however you did not tell me your timezone so I cannot be sure of when exactly to send the reminder to you. Please provide your timezone using the command `tz`.
+To know your timezone, see here: https://chouette.00a7bf.fr/d/timezone.html

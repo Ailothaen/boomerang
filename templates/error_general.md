@@ -1,0 +1,1 @@
+:no_entry_sign: Something went wrong and I do not know what. Please open an issue on the Github repository.

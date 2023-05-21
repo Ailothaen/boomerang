@@ -1,0 +1,1 @@
+:white_check_mark: Noted! I will remind you "{{reminder_text}}" at <t:{{reminder_time}}>.
